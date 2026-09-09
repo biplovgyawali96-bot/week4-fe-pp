@@ -6,12 +6,11 @@ import tour5 from "./assets/images/tour-1.jpeg";
 import tour6 from "./assets/images/tour-2.jpeg";
 import tour7 from "./assets/images/tour-3.jpeg";
 
-
 export const pageLinks = [
-  { id: 1, href: "#home", text: "home" },
-  { id: 2, href: "#about", text: "about" },
-  { id: 3, href: "#services", text: "services" },
-  { id: 4, href: "#tours", text: "tours" },
+  { id: 1, href: "/", text: "home" },
+  { id: 2, href: "/about", text: "about" },
+  { id: 3, href: "/services", text: "services" },
+  { id: 4, href: "/tours", text: "tours" },
 ];
 
 export const socialLinks = [
@@ -100,7 +99,7 @@ export const tours = [
     image: tour4,
     date: "december 5th, 2027",
     title: "kenya highlights",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercise.`,
     location: "kenya",
     duration: 20,
     cost: 3300,
